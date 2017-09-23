@@ -1,0 +1,28 @@
+
+/* 
+    Created on : 19/09/2017, 23:01:59
+    Author     : Anderson
+*/
+.tudo{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    background-color: background;
+    border: solid;
+}
+.logo img{
+    max-width:80px;
+    max-height:80px;
+    float:  left; 
+}
+.cabeca{
+    margin-top: -3%; 
+    width: auto;
+    height: 70px;
+    text-decoration: blink;
+    text-justify:distribute;
+    
+    background-color: black;
+    color:white;
+}
+

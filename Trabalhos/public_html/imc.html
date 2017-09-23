@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<!--
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+-->
+<html>
+    <head>
+        <title>IMC</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" type="text/css" href="estilo.css"/>
+         <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta/css/bootstrap.min.css" integrity="sha384-/Y6pD6FV/Vv2HJnA6t+vslU6fwYXjCFtcEpHbNJ0lyAFsXTsjBbfaDjzALeQsN6M" crossorigin="anonymous">
+         
+         <script type="text/javascript" src="imc.js"></script>
+    </head>
+    <body>
+        <div class="cabecario1"> 
+            <h4>IMC Online<br>online</h4>
+        </div>
+        
+        <div class="cabecario2"> 
+         
+        </div>
+       <br><br><br>
+        <div class="corpo">             
+            <form action=" " method="post">
+                <div class="corpo_l1">        
+                    Peso:&nbsp;&nbsp;   <input type="number" name="v1" id="peso"><br>
+                    Altura: <input type="number" name="v2" id="altura"><br>
+                    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;
+                    <input type ="button" value="calcular" style="background-color: #00BFFF" onclick="imc()">
+                </div>
+                <div class="corpo_l2">
+                    <label>Resultado:</label>
+                    <input class="form-control-plaintext" readonly="" type ="text" name="Resultado" id="result"/><br>
+                </div>
+                
+            </form>
+        </div>
+       
+       <div class="rodape"> 
+         Desenvolvido por Anderson Guimaraes
+        </div>
+       
+    </body>
+</html>
+

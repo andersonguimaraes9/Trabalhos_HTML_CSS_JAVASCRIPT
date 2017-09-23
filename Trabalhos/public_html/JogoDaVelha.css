@@ -1,0 +1,28 @@
+/* 
+    Created on : 19/09/2017, 21:34:23
+    Author     : Anderson
+*/
+h1{ background-color: black;
+    color:white;
+    text-align: center;   
+}
+h5{ 
+    color:aqua;
+    text-align:right;   
+}
+.tudo{
+    margin-left: 20%;
+    margin-right: 20%;
+    text-align: center;
+    background-color: background;
+    border: solid;
+}
+
+.logo img{
+    max-width:80px;
+    max-height:80px;
+    float:  left; 
+}
+.cabeca{
+    margin-top: -3%; 
+}

@@ -1,0 +1,46 @@
+/* 
+    Created on : 01/09/2017, 18:47:03
+    Author     : Anderson
+*/
+
+.cabecario1 {
+ width: 90px;
+ height: 90px;
+ border: solid;
+ float:  left; 
+ text-align: center;
+}
+.cabecario2 {
+ width: 1100px;
+ height: 90px;
+ border: solid;
+ float:  right;
+}
+.corpo {
+ margin-top: 60px;
+ width: 1250px;
+ height: 400px;
+ border: solid;
+ float:  center;
+
+}
+.rodape {
+ margin-top: 60px;
+ width: 1250px;
+ height: 40px;
+ border: solid;
+ float:  center;
+ text-align: right;
+}
+.corpo_l1 {
+ width: 300px;
+ height: 300px;
+ float:  left;  
+
+}
+
+.corpo_l2 {
+  width: 200px;
+  height: 200px;  
+  float:  right;
+}
